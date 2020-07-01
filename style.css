@@ -2,7 +2,7 @@ body{
   background: #262626;
 }
 i{
-  font-size:30px;
+  font-size:1.5em;
   color:white;
   float:right;
 }
@@ -30,5 +30,5 @@ li{
   text-align: justify;
   position: relative;
   left: 20%;
-  font-size:80px;
+  width:60px;
 }
