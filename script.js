@@ -21,6 +21,6 @@ document.getElementById("parent").addEventListener("click",remove);
 function remove(e)
 {
   if(e.target.className==="fa fa-close")
-  e.target.parentElement.remove();
-
+  {e.target.parentElement.remove();
+  }
 };
