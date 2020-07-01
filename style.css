@@ -1,0 +1,33 @@
+body{
+  background: #262626;
+}
+i{
+  color:white;
+  float:right;
+}
+li{
+  margin-left:0;
+  list-style: none;
+  color:white;
+}
+.todo{
+  color: yellowgreen;
+}
+.list{
+  
+  color:white;
+}
+#user{
+  text-align: center;
+  
+}
+#add{
+  background: white;
+  Color:black;
+  border: 0ch;
+  border-radius: 30px;
+  text-align: justify;
+  position: relative;
+  left: 40%;
+  
+}
