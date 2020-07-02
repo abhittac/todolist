@@ -5,7 +5,7 @@ function getdata(e){
   
 
 var user=document.getElementById("user").value;
-  document.getElementById("user").value=" ";
+  
 //create li append user data
 var li=document.createElement("li");
 li.innerText=user;
