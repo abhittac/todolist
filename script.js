@@ -1,8 +1,9 @@
 //take user input and Add button store user input
-document.getElementById("add").addEventListener("click",getdata);
-function getdata(e){
+
 var user=document.getElementById("user").value;
 document.getElementById("user")="";
+document.getElementById("add").addEventListener("click",getdata);
+function getdata(e){
 //create li append user data
 var li=document.createElement("li");
 li.innerText=user;
