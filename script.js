@@ -6,6 +6,7 @@ document.getElementById("add").addEventListener("click",getdata);
 function getdata(e){
   
 
+  var user=document.getElementById("user").value;
 //create li append user data
 if(user=="")
 {
